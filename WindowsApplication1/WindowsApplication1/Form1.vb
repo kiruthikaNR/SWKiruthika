@@ -26,7 +26,6 @@ Public Class Form1
 
     Private Sub Button3_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         'Athithyaa's Update
-        'Athithyaa's Second Update
         'VALIDATIONS
         Dim a, START_INDEX1, END_INDEX1, LEN1 As Integer
         Dim start3 As String
