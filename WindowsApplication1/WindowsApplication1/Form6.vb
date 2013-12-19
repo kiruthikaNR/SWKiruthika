@@ -122,22 +122,4 @@ Public Class Form6
             ListBox2.SelectedItem = str2
         End If
     End Sub
-
-    Private Sub Label8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-    End Sub
-
-    Private Sub CheckBox6_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox6.CheckedChanged
-        Dim cb As CheckBox = CType(sender, CheckBox)
-
-        If cb.Checked = True Then
-            dov.Visible = True
-        Else
-            dov.Visible = False
-        End If
-    End Sub
-
-    Private Sub Label6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label6.Click
-
-    End Sub
 End Class
